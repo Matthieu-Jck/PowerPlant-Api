@@ -11,7 +11,8 @@ port **8888**
 ---
 
 This project solves a simplified version of the **Unit Commitment problem**
-This implementation uses a **deterministic greedy + adjustment strategy**:
+
+This implementation uses a **deterministic greedy + adjustment strategy**: 
 Not mathematically guaranteed optimal.
 
 ---
