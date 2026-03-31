@@ -2,8 +2,10 @@
 
 A REST API that computes a **production plan** for a set of power plants using a **merit-order based heuristic algorithm**.
 
-**Java 17**
-**Spring Boot 3.2**
+**Java 17**, 
+
+**Spring Boot 3.2**, 
+
 port **8888**
 
 ---
@@ -16,20 +18,28 @@ Not mathematically guaranteed optimal.
 
 # Requirements
 
----
-
 Java 17+, Maven 3.8+, Docker 20+           |
 
 ---
 
 # Build and Run
 
-## Option 1 — Maven
-
 ```bash
 git clone https://github.com/Matthieu-Jck/PowerPlant-Api.git
 cd PowerPlant-Api
+```
 
+# Build and Run
+
+## Option 1 - IntelliJ
+
+Open with IntelliJ
+Right click on file "PowerplantApiApplication" -> Run
+Same for tests
+
+## Option 2 — Maven
+
+```bash
 mvn clean package -DskipTests
 java -jar target/PowerPlant-Api-1.0.0.jar
 ```
@@ -38,7 +48,7 @@ API available at http://localhost:8888
 
 ---
 
-## Option 2 — Docker
+## Option 3 — Docker
 
 ```bash
 docker build -t PowerPlant-Api .
