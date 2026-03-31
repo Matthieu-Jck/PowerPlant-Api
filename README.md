@@ -23,7 +23,7 @@ Java 17+, Maven 3.8+, Docker 20+           |
 
 ---
 
-# Build and Run
+# Clone project
 
 ```bash
 git clone https://github.com/Matthieu-Jck/PowerPlant-Api.git
