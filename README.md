@@ -35,7 +35,9 @@ cd PowerPlant-Api
 ## Option 1 - IntelliJ
 
 Open with IntelliJ
+
 Right click on file "PowerplantApiApplication" -> Run
+
 Same for tests
 
 ## Option 2 — Maven
